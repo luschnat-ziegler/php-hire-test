@@ -18,9 +18,9 @@ Recipes should be able to be sent as e-mail to a given e-mail address.
 
 ##Features
 
-1. Browse through exting recipes
+1. Browse through existing recipes
 2. Create new recipes with ingredients
-3. Send recipes via E-Mail to a frind
+3. Send recipes via E-Mail to a friend
 4. Sort the list of recipes
 4. Search recipes
 5. Load a recipe preview via AJAX on hover the title.
@@ -56,7 +56,7 @@ This are must have requirements, your application needs to fulfill:
 * jQuery
 * HTML5
 * GitHub
-* Supported Browsers: Microsoft Internet Exploder 10, Firefox and Chrome
+* Supported Browsers: Microsoft Internet Exploder 10 and higher, Firefox and Chrome
 
 # Hints
 * We love JSON :)
