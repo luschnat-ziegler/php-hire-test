@@ -25,21 +25,15 @@ Features
 6. Make it user friendly
 
 Example recipe:
-
-Created: 20.07.2015
-
-Chocolate cake
-
+*Created: 20.07.2015*
+**Chocolate cake**
 100g sugar
-
 50g flour
-
 2 two eggs
-
 150g chocolate
 
-Description:
-
+**Description:**
+Bake it at 200°C for 40 minutes.
 This is an example recipe for our hiring test - Om Nom Nom
 
 *This is just a example we never tasted, so maybe don't bake it :)*
