@@ -12,6 +12,7 @@ We operate with 75 employees from our main office in Fulda and branch offices in
 # Your task
 Your task is to create a recipe collection where a user is able to browse through existing recipes or create a new one.
 Recipes should be able to be sent as e-mail to a given e-mail address.
+**Notice: Use plain PHP or [CakePHP](http://cakephp.org/) as framework!**
 
 Features
 ------
@@ -20,24 +21,29 @@ Features
 3. Send recipes via E-Mail to a frind
 4. Sort the list of recipes
 4. Search recipes
-5. Load a recipe per view via AJAX on hover the title.
+5. Load a recipe preview via AJAX on hover the title.
 6. Make it user friendly
 
 Example recipe:
+
 Created: 20.07.2015
+
 Chocolate cake
+
 100g sugar
+
 50g flour
+
 2 two eggs
+
 150g chocolate
 
 Description:
+
 This is an example recipe for our hiring test - Om Nom Nom
 
 *This is just a example we never tasted, so maybe don't bake it :)*
 
-
-**Use plain PHP or CakePHP as framework!**
 
 #Requirements
 This are must have requirements, your application needs to fulfill:
@@ -60,7 +66,7 @@ This are must have requirements, your application needs to fulfill:
 * Nginx and PHP-FPM experiences
 * Most of our developers are used to Mac OS X or Ubuntu as their operating system
 
-# How to
+# Workflow
 **Important notice: Before you start, send us your application at karriere@it-novum.com and wait for our feedback!**
 
 1. Fork this repository
