@@ -13,7 +13,8 @@ We operate with 75 employees from our main office in Fulda and branch offices in
 Your task is to create a recipe collection where a user is able to browse through existing recipes or create a new one.
 Recipes should be able to be sent as e-mail to a given e-mail address.
 
-##Features
+Features
+------
 1. Browse through exting recipes
 2. Create new recipes with ingredients
 3. Send recipes via E-Mail to a frind
