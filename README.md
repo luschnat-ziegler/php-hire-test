@@ -14,8 +14,8 @@ Your task is to create a recipe collection where a user is able to browse throug
 Recipes should be able to be sent as e-mail to a given e-mail address.
 **Notice: Use plain PHP or [CakePHP](http://cakephp.org/) as framework!**
 
-Features
-------
+##Features
+
 1. Browse through exting recipes
 2. Create new recipes with ingredients
 3. Send recipes via E-Mail to a frind
@@ -24,20 +24,27 @@ Features
 5. Load a recipe preview via AJAX on hover the title.
 6. Make it user friendly
 
-Example recipe:
+###Example recipe:
 *Created: 20.07.2015*
-**Chocolate cake**
+
+**Chocolate cake:**
+
 100g sugar
+
 50g flour
+
 2 two eggs
+
 150g chocolate
 
 **Description:**
+
 Bake it at 200°C for 40 minutes.
+
 This is an example recipe for our hiring test - Om Nom Nom
 
-*This is just a example we never tasted, so maybe don't bake it :)*
 
+*This is just a example we never tasted, so maybe don't bake it :)*
 
 #Requirements
 This are must have requirements, your application needs to fulfill:
