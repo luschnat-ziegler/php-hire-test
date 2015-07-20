@@ -35,9 +35,11 @@ Recipes should be able to be sent as e-mail to a given e-mail address.
 
 50g flour
 
-2 two eggs
+2 eggs
 
 150g chocolate
+
+50ml milk
 
 **Description:**
 
