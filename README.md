@@ -62,7 +62,7 @@ This are must have requirements, your application needs to fulfill:
 
 # Hints
 * We love JSON :)
-* Our development environment is based on Ubuntu virtual maschins (14.04 LTS). It would be great if you have some experiences using Ubuntu
+* Our development environment is based on Ubuntu virtual machines (14.04 LTS). It would be great if you have some experiences using Ubuntu
 * openITCOCKPIT gets developed using GitHub and Jenkins
 
 # Nice to have
