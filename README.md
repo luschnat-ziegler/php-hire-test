@@ -78,6 +78,8 @@ This are must have requirements, your application needs to fulfill:
 2. Create a new branch and name it with your GitHub username
 3. When you're done, create a pull request
 
+*If you don't want to create a pull request, send us a zip file with your local git repository*
+
 **Commit everything to the repository we need to test your code!**
 
 # License
