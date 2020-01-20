@@ -14,7 +14,7 @@ Your task is to create a recipe collection where a user is able to browse throug
 
 Recipes should be able to be sent as e-mail to a given e-mail address.
 
-**Notice: Use plain PHP or [CakePHP](http://cakephp.org/) as framework!**
+**Notice: Use plain PHP or [CakePHP](http://cakephp.org/) as framework in backend and plain Javascript or AngularJS in frontend!**
 
 ##Features
 
@@ -27,7 +27,7 @@ Recipes should be able to be sent as e-mail to a given e-mail address.
 6. Make it user friendly
 
 ###Example recipe:
-*Created: 20.07.2015*
+*Created: 20.01.2020*
 
 **Chocolate cake:**
 
