@@ -52,17 +52,18 @@ This is an example recipe for our hiring test - Om Nom Nom
 
 #Requirements
 This are must have requirements, your application needs to fulfill:
-* PHP >= 5.4
-* MySQL >= 5.5
-* Bootstrap 3.x
+* PHP >= 7.2
+* MySQL >= 5.7
+* Bootstrap 4.x
+* AngularJS
 * jQuery
 * HTML5
 * GitHub
-* Supported Browsers: Microsoft Internet Exploder 10 and higher, Firefox and Chrome
+* Supported Browsers: Microsoft Edge and higher, Firefox and Chrome
 
 # Hints
 * We love JSON :)
-* Our development environment is based on Ubuntu virtual machines (14.04 LTS). It would be great if you have some experiences using Ubuntu
+* Our development environment is based on Ubuntu virtual machines (18.04 LTS). It would be great if you have some experiences using Ubuntu
 * openITCOCKPIT gets developed using GitHub and Jenkins
 
 # Nice to have
