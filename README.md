@@ -16,7 +16,7 @@ Recipes should be able to be sent as e-mail to a given e-mail address.
 
 **Notice: Use plain PHP or [CakePHP](http://cakephp.org/) as framework in backend and plain Javascript or AngularJS in frontend!**
 
-##Features
+## Features
 
 1. Browse through existing recipes
 2. Create new recipes with ingredients
@@ -26,7 +26,7 @@ Recipes should be able to be sent as e-mail to a given e-mail address.
 5. Load a recipe preview via AJAX on hover the title.
 6. Make it user friendly
 
-###Example recipe:
+### Example recipe:
 *Created: 20.01.2020*
 
 **Chocolate cake:**
@@ -50,7 +50,7 @@ This is an example recipe for our hiring test - Om Nom Nom
 
 *This is just a example we never tasted, so maybe don't bake it :)*
 
-#Requirements
+# Requirements
 This are must have requirements, your application needs to fulfill:
 * PHP >= 7.2
 * MySQL >= 5.7
