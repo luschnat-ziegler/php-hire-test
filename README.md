@@ -4,17 +4,17 @@ Check all our [vacancies](http://www.it-novum.com/karriere.html)
 # About it-novum
 it-novum is the leading IT consultancy for Business Open Source in the German-speaking market. Founded in 2000 out of the IT department of the KAP-AG, it-novum today is a subsidiary of the publicly-held KAP-AG.
 
-We operate with 75 employees from our main office in Fulda and branch offices in Berlin and Vienna to serve large SME enterprises as well as big companies in the German-speaking markets.
+We operate with 85 employees from our main office in Fulda and branch offices in Berlin and Vienna to serve large SME enterprises as well as big companies in the German-speaking markets.
 
 
-**We are hiring PHP developers for our Open Source Monitoring Solution [openITCOCKPIT](http://openitcockpit.org/) based on Nagios/Naemon.**
+**We are hiring PHP developers for our Open Source Monitoring Solution [openITCOCKPIT](http://openitcockpit.io/) based on Nagios, Naemon and Prometheus.**
 
 # Your task
 Your task is to create a recipe collection where a user is able to browse through existing recipes or create a new one.
 
 Recipes should be able to be sent as e-mail to a given e-mail address.
 
-**Notice: Use plain PHP or [CakePHP](http://cakephp.org/) as framework in backend and plain Javascript or AngularJS in frontend!**
+**Notice: Use plain PHP or [CakePHP](http://cakephp.org/) as framework, vanilla JavaScript, [jQuery](https://jquery.com/) or [AngularJS](https://angularjs.org/)!**
 
 ## Features
 
@@ -63,11 +63,11 @@ This are must have requirements, your application needs to fulfill:
 
 # Hints
 * We love JSON :)
-* Our development environment is based on Ubuntu virtual machines (18.04 LTS). It would be great if you have some experiences using Ubuntu
+* Our development environment is based on Ubuntu virtual machines (20.04 LTS). It would be great if you have some experiences using Ubuntu
 * openITCOCKPIT gets developed using GitHub and Jenkins
 
-# Nice to have
-* Nagios, Naemon or Icinga experiences
+# Nice to have (but not a must have)
+* Nagios, Naemon, Icinga or Prometheus experiences
 * Knowledge of [CakePHP](http://cakephp.org/)
 * Nginx and PHP-FPM experiences
 * Most of our developers are used to Mac OS X or Ubuntu as their operating system
@@ -81,7 +81,7 @@ This are must have requirements, your application needs to fulfill:
 
 *If you don't want to create a pull request, send us a zip file with your local git repository*
 
-**Commit everything to the repository we need to test your code!**
+**Commit everything to the repository we need to test your code.**
 
 # License
 MIT License
