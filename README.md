@@ -55,11 +55,10 @@ This are must have requirements, your application needs to fulfill:
 * PHP >= 7.2
 * MySQL >= 5.7
 * Bootstrap 4.x
-* AngularJS
-* jQuery
+* Vanilla JavaScript and/or AngularJS and/or jQuery
 * HTML5
 * GitHub
-* Supported Browsers: Microsoft Edge and higher, Firefox and Chrome
+* Supported Browsers: Firefox, Chrome and Microsoft Edge
 
 # Hints
 * We love JSON :)
@@ -70,7 +69,7 @@ This are must have requirements, your application needs to fulfill:
 * Nagios, Naemon, Icinga or Prometheus experiences
 * Knowledge of [CakePHP](http://cakephp.org/)
 * Nginx and PHP-FPM experiences
-* Most of our developers are used to Mac OS X or Ubuntu as their operating system
+* Most of our developers are used to macOS or Ubuntu as their desktop operating system
 
 # Workflow
 **Important notice: Before you start, send us your application at karriere@it-novum.com and wait for our feedback!**
