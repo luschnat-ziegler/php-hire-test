@@ -1,0 +1,30 @@
+<div class="pt-3 pb-3 d-flex justify-content-between">
+  <input type="text" [(ngModel)]="filterText" placeholder="Search by title">
+  <button type="button" class="btn btn-primary" [routerLink]="'/create'">New Recipe</button>
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>
+      <button class="fw-bold btn" (click)="sortByTitle()">Title
+        <i *ngIf="sortDirection === 'none'" i-bs name="chevron-expand"></i>
+        <i *ngIf="sortDirection === 'asc'" i-bs name="chevron-up"></i>
+        <i *ngIf="sortDirection === 'desc'" i-bs name="chevron-down"></i>
+      </button>
+    </th>
+    <th>
+      <div class="pb-1">Short description
+      </div>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let recipe of filteredRecipes">
+    <td>
+      <app-recipe-title-entry [recipe]="recipe"/>
+    </td>
+    <td>{{recipe.short_description}}</td>
+  </tr>
+  </tbody>
+</table>
+

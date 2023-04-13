@@ -1,0 +1,53 @@
+<div class="card mt-2">
+  <div class="card-header">Neues Rezept</div>
+  <div class="card-body">
+    <div *ngIf="!isLoading" class="d-flex flex-column gap-2">
+      <input type="text" class="form-control" id="title" placeholder="Title" [(ngModel)]="recipe.title">
+      <input type="text" class="form-control" id="shortDescription" placeholder="Short description"
+             [(ngModel)]="recipe.short_description">
+      <input type="text" class="form-control" id="instructions" placeholder="Instructions"
+             [(ngModel)]="recipe.instructions">
+      <div class="border border-dark p-2">
+        <h5>Ingredients</h5>
+        <div class="row m-3">
+          <input type="text" class="form-control col" id="ingredientName" placeholder="Ingredient name"
+                 [(ngModel)]="currentIngredientName"/>
+          <input type="number" step="0.1" min="0" class="form-control col" id="ingredientAmount" placeholder="Amount"
+                 [(ngModel)]="currentIngredientAmount"/>
+          <input type="text" class="form-control col" id="ingredientUnit" placeholder="Unit"
+                 [(ngModel)]="currentIngredientUnit"/>
+          <button class="btn btn-primary col" (click)="onAddIngredientClick()">Add</button>
+        </div>
+        <div>
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th>Name</th>
+              <th>Amount</th>
+              <th>Unit</th>
+              <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let ingredient of recipe.ingredients">
+              <td>{{ingredient.name}}</td>
+              <td>{{ingredient.amount}}</td>
+              <td>{{ingredient.unit}}</td>
+              <td>
+                <button class="btn btn-close" (click)="onRemoveIngredientClick(ingredient.name)"></button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ngb-alert *ngIf="hasError" [dismissible]="false">
+    <p *ngFor="let message of errorMessages">{{message}}</p>
+  </ngb-alert>
+  <div class="card-footer d-flex gap-1 flex-row flex-row-reverse">
+    <button class="btn btn-warning" [routerLink]="'/'">Cancel</button>
+    <button class="btn btn-success" (click)="onSaveClick()">Save</button>
+  </div>
+</div>

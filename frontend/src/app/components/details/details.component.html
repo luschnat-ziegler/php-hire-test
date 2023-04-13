@@ -1,0 +1,29 @@
+<div class="p-2">
+  <ng-template *ngIf="isLoading; else content">
+    Loading...
+  </ng-template>
+  <ng-template #content>
+    <ngb-alert *ngIf="hasError; else recipeDetails" [dismissible]="false">
+      {{message}}
+    </ngb-alert>
+    <ng-template #recipeDetails>
+      <div class="card mt-2">
+        <div class="card-header">{{recipe.title}}</div>
+        <div class="card-body">
+          <p class="fst-italic">{{recipe.short_description}}</p>
+          <p class="text-muted">Created: {{getFormattedDate(recipe.created)}}</p>
+          <hr>
+          <ul>
+            <li
+              *ngFor="let ingredient of recipe.recipe_ingredients">{{ingredient.amount + " " + ingredient.ingredient.unit + " " + ingredient.ingredient.name}}</li>
+          </ul>
+          <hr>
+          <p>{{recipe.instructions}}</p>
+        </div>
+      </div>
+    </ng-template>
+    <div class="d-flex flex-row-reverse p-2">
+      <button class="btn btn-primary" [routerLink]="'/'">Back to list</button>
+    </div>
+  </ng-template>
+</div>

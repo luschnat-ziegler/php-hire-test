@@ -1,0 +1,10 @@
+<ng-template #popContent>
+  <p class="fst-italic">{{recipe.short_description}}</p>
+  <hr>
+  <p>{{recipe.instructions}}</p>
+</ng-template>
+<ng-template #popTitle>{{recipe.title}}</ng-template>
+
+<a [routerLink]="['/details', recipe.id]" [ngbPopover]="popContent" [popoverTitle]="popTitle"
+   triggers="mouseenter:mouseleave" popoverTitle="{{recipe.title}}" placement="end">{{recipe.title}}</a>
+
